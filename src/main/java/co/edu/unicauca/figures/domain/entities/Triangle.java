@@ -1,9 +1,5 @@
 package co.edu.unicauca.figures.domain.entities;
 
-/**
- *
- * @author Anderson Vinasco
- */
 public class Triangle extends Figure {
 
     private double side_1, side_2, side_3;
@@ -28,7 +24,7 @@ public class Triangle extends Figure {
         
         return Math.sqrt(s * (s - side_1) * (s - side_2) * (s - side_3));
     }
-
+    
     @Override
     public double calculatePerimeter() {
         return side_1 + side_2 + side_3;

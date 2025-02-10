@@ -1,9 +1,5 @@
 package co.edu.unicauca.figures.domain.entities;
 
-/**
- *
- * @author Anderson Vinasco
- */
 public class Square extends Figure{
     
     private double side;

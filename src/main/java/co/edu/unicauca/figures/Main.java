@@ -7,6 +7,7 @@ import java.util.List;
 /**
  *
  * @author Anderson Vinasco
+ * @author Karold Delgado
  */
 public class Main {
 
